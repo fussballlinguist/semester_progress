@@ -1,5 +1,5 @@
 # semester_progress
-This perl script creates a tsv-file for automatized scheduling of tweets to run a bot like [Semester Progress](https://twitter.com/sem_progress/). Just adjust the beginning and end date of the semester (or any other period) you want to display in the script. In this version, the dates follow the so called [Zeitregime](https://tu-dresden.de/mn/physik/ressourcen/dateien/studium/lehrveranstaltungen/stundenplaene/zeitregime.pdf?lang=de) of TU Dresden, Germany.
+This perl script creates a tsv-file for automatized scheduling of tweets to run a bot like [Semester Progress](https://twitter.com/sem_progress/). Just adjust the beginning and end date of the semester (or any other period you want to display) in the script. In this version, the dates follow the so called [Zeitregime](https://tu-dresden.de/mn/physik/ressourcen/dateien/studium/lehrveranstaltungen/stundenplaene/zeitregime.pdf?lang=de) of TU Dresden, Germany.
 
 The script calculates the length of the period in seconds (!), divides it in 100 parts and creates a tweet with a progress bar for exactly the point in time at which a further percentage step is reached.
 
