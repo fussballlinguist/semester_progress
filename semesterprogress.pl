@@ -28,7 +28,6 @@ my $strp = DateTime::Format::Strptime->new(
     pattern => '%d.%m.%Y\t%T'
 );
 my $dt = $strp->parse_datetime($begin);
-print "$dt\n";
 for (my $var = 1; $var < 101; $var++) {
 	my $p = round($var / 10);
 	printf "%s", $dt->add(seconds => $percent)->strftime("%d.%m.%Y\t%T\t");
