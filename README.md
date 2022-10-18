@@ -10,3 +10,5 @@ You can run the scripts from the command line:
 The format of the ouput is compatible with [autoChirp](https://autochirp.spinfo.uni-koeln.de/home), a small and easy-to-use webapplication to ease the scheduled publication of the tweets. Just create a new twitter account, log in at autoChirp, upload the tsv-file and there you go.
 
 As you can see, this bot is inspired by the wonderful [Year Progress](https://twitter.com/year_progress).
+
+If you set up your own version of Semester Progress, I am happe to be informed via email: [simon.meier-vieracker@tu-dresden.de](mailto:simon.meier-vieracker@tu-dresden.de).
